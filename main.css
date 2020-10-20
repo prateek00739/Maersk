@@ -1,0 +1,149 @@
+.title {
+    width: 960px;
+    background: #EFEFEF;
+}
+
+header {
+    background: #FFFFFF;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 100;
+    color: #333333;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.highlight {
+    opacity: 0.5;
+    height: 5px;
+    background: #333333;
+}
+
+aside {
+    float: right;
+}
+
+.btn_style {
+    background-color: #72C3DC;
+    border: none;
+    color: #FFFFFF;
+    padding: 5px 32px;
+    font-size: 16px;
+    width: 70%;
+    cursor: pointer;
+    box-shadow: 0px 5px #2B8EAD;
+    border-radius: 4px;
+    display: block;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+section {
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 0.4em 0.9em;
+    margin: 0px -3px;
+    font-size: 6em;
+}
+
+.card1,
+.card8 {
+    background: #6F98A8;
+}
+
+.card2,
+.card4 {
+    background: #2B8EAD;
+}
+
+.card3,
+.card5,
+.card9 {
+    background: #2F454E;
+}
+
+.card6,
+.card7 {
+    background: #BFBFBF;
+}
+
+footer {
+    color: #333333;
+    text-align: center;
+    padding: 5px;
+    font-style: italic;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1000px) {
+    .title {
+        background: none;
+        border: 0.4em solid #000000;
+        border-radius: 5px;
+        width: 100%;
+    }
+    header {
+        background: #333333;
+    }
+    h1 {
+        color: #FFFFFF;
+        height: 45px;
+    }
+    aside {
+        text-align: center;
+        float: none;
+    }
+    .btn_style {
+        display: inline-block;
+        margin: 10px;
+        padding: 15px 25px;
+        width: 135px;
+    }
+    ul li {
+        text-align: center;
+        padding: 0.3em;
+        color: #333333;
+        font-size: 3em;
+        display: block;
+    }
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6,
+    .card7,
+    .card8,
+    .card9 {
+        background: #EFEFEF;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .card1,
+    .card8 {
+        border-left: 0.3em solid #6F98A8;
+    }
+    .card2,
+    .card4 {
+        border-left: 0.3em solid #2B8EAD;
+    }
+    .card3,
+    .card5,
+    .card9 {
+        border-left: 0.3em solid #2F454E;
+    }
+    .card6,
+    .card7 {
+        border-left: 0.3em solid #BFBFBF;
+    }
+}
